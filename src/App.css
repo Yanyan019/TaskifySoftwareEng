@@ -1,0 +1,13 @@
+.App {
+    display: flex;
+  }
+  
+  .sidebar-container {
+    width: 250px;
+  }
+  
+  .calendar-container {
+    flex: 1;
+    margin-left: 20px; /* Optional: Add margin for spacing */
+  }
+  

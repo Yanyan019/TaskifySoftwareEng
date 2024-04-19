@@ -1,0 +1,50 @@
+/* sidebar.css */
+
+.sidebar {
+  width: 230px;
+  height: 100%;
+  background-color: #ffffff; /* Dark background color */
+  padding-top: 20px;
+  color: #000000; /* Light text color */
+  border-right: 1px solid black;
+}
+
+.sidebar-header {
+  padding: 0 20px;
+  margin-bottom: 25px;
+}
+
+.sidebar-header h1 {
+  font-size: 35px;
+  font-weight: bold;
+  padding: 0 0 0 2rem ;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-menu-item {
+  margin-bottom: 10px;
+}
+
+.sidebar-menu-item svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px; /* Adjust this value to change the spacing */
+}
+
+.sidebar-menu-item a {
+  display: flex;
+  align-items: center;
+  padding: 10px 50px;
+  border-radius: 5px;
+  color: #000000;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-menu-item a:hover {
+  background-color: #424242; /* Darker background on hover */
+}
